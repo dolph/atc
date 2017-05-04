@@ -7,7 +7,7 @@ You can work on the ATC without a full Concourse deployment. This is useful for 
 You need to clone the `concourse/concourse` repo, which will clone the `atc` repository as a submodule:
 
 ```
-$ git clone --recursive https://github.com/concourse/concourse
+git clone --recursive https://github.com/concourse/concourse
 ```
 
 ## Install development tools
