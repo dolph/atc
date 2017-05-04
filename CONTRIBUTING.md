@@ -14,8 +14,8 @@ git clone --recursive https://github.com/concourse/concourse
 
 Concourse is built with Go and Elm. You also need Node and few modules. Assuming you're using a mac:
 
-- Install Elm 0.18 from http://install.elm-lang.org/Elm-Platform-0.18.pkg
-- Install Homebrew from http://brew.sh/
+- Install [Elm 0.18](http://install.elm-lang.org/Elm-Platform-0.18.pkg)
+- Install [Homebrew](http://brew.sh/)
 
 Then use Homebrew to install the following:
 
