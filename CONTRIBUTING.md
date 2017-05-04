@@ -4,11 +4,10 @@ You can work on the ATC without a full Concourse deployment. This is useful for 
 
 ## Checkout the code
 
-You need to checkout the `concourse/concourse` repo. `atc` will be picked up as a submodule:
+You need to clone the `concourse/concourse` repo, which will clone the `atc` repository as a submodule:
 
 ```
-$ git clone https://github.com/concourse/concourse
-git submodule update --init --recursive
+$ git clone --recursive https://github.com/concourse/concourse
 ```
 
 ## Install development tools
