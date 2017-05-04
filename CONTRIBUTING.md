@@ -15,15 +15,15 @@ git clone --recursive https://github.com/concourse/concourse
 Concourse is built with Go and Elm. You also need Node and few modules. Assuming you're using a mac:
 
 - Install Elm 0.18 from http://install.elm-lang.org/Elm-Platform-0.18.pkg
-- Install homebrew from http://brew.sh/
+- Install Homebrew from http://brew.sh/
 
-Then use homebrew to install the following:
+Then use Homebrew to install the following:
 
 ```
 brew install go node postgres
 ```
 
-Finally use Node to install the javascript tools:
+Finally use Node to install the JavaScript tools:
 
 ```
 npm install -g uglify-js less less-plugin-clean-css
@@ -31,7 +31,7 @@ npm install -g uglify-js less less-plugin-clean-css
 
 ## Setting up the database
 
-You need a running postgres database named `atc`. The ATC itself takes care of creating and upgrading the schema, so you just need to create an empty database. If it's the first time you've installed postgres you need to run `initdb`
+You need a running PostgreSQL database named `atc`. The ATC itself takes care of creating and upgrading the schema, so you just need to create an empty database. If it's the first time you've installed PostgreSQL you need to run `initdb`
 
 ```
 initdb /usr/local/var/postgres -E utf8
