@@ -74,7 +74,7 @@ Finally you can run the ATC:
 
 ```
 cd ..
-go run cmd/atc/*.go -d     
+go run cmd/atc/*.go -d
 ```
 
 Concourse should be live at http://localhost:8080
