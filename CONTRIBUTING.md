@@ -3,6 +3,7 @@
 You can work on the ATC without a full Concourse deployment. This is useful for testing changes to the web UI. The only limitation is that any builds you run will fail with the `no workers` error. To test your local changes with a full deployment, follow the instructions in the [concourse/concourse CONTRIBUTING.md](https://github.com/concourse/concourse/blob/master/CONTRIBUTING.md) instead.
 
 ## Checkout the code
+
 You need to checkout the `concourse/concourse` repo. `atc` will be picked up as a submodule:
 
 ```
@@ -11,6 +12,7 @@ git submodule update --init --recursive
 ```
 
 ## Install development tools
+
 Concourse is built with Go and Elm. You also need Node and few modules. Assuming you're using a mac:
 
 - Install Elm 0.18 from http://install.elm-lang.org/Elm-Platform-0.18.pkg
