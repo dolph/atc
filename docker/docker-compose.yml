@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+
+  atc:
+    build: atc
+    ports:
+    - "8080:8080"
+    links:
+    - db
+
+  db:
+    image: postgres
+    environment:
+    - POSTGRES_DB=atc
+    - POSTGRES_USER=atc
+    - POSTGRES_PASSWORD=atc
